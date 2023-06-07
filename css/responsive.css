@@ -1,0 +1,126 @@
+@media (min-width:768px) and (max-width:1023px){
+    .body-content-1-text{
+        text-align: center;
+    }
+    .body-content-1-text p{
+        width: 90%;
+        text-align: left;
+        margin: 0 auto;
+    }
+    .body-content-1-text button{
+        float: left;
+        margin: 5%;
+    }
+    .body-content-1-img img{
+        margin: 0 10%;
+    }
+    .body-content-3-left {
+        margin-left: 8%;
+    }
+    .container-body-content-3-left{
+        width: 90%;
+    }
+    .body-content-3{
+        flex-direction: column;
+        padding: 50px 0;
+    }
+    .body-content-3-right{
+        margin-left: 8%;
+    }
+    .container-body-content-3-right{
+        width: 90%;
+    }
+    .body-content-3-right button{
+        margin-right: 20%;
+    }
+    .body-content-2-items-child{
+        justify-content: center;
+    }
+    .body-content-2{
+        padding-left: 5%;
+    }
+}
+@media (max-width:767px){
+    .body-content-1-text h2{
+        font-size: 28px;
+    }
+    .body-content-1{
+        margin: 0;
+    }
+    .body-content-1-text p{
+        width: 100%;
+    }
+    .body-content-1-img img{
+        margin: 10px 7% 0 7%;
+    }
+    .body-nav{
+        padding: 0;
+    }
+    .body-nav ul{
+       flex-direction: column;
+    }
+    .body-nav-items {
+        justify-content: space-around;
+        margin: 5% 0 5% 10%;
+    }
+    .body-nav-items p {
+        width: 80%;
+    }
+    .body-nav-items li{
+        margin: 15% 0;
+    }
+    .body-content-2{
+        padding: 0;
+        margin: 50px 0 50px 7%;
+    }
+    .body-content-2-items{
+        width: 100%;
+    }
+    .body-content-2-items-child{
+        width: 23%;
+    }
+    .body-content-3{
+        flex-direction: column;
+        padding: 0;
+    }
+    .container-body-content-3-left{
+        width: 92%;
+    }
+    .body-content-3-left-body-text {
+        margin: 0px 0px 0 20px;
+    }
+    .body-content-3-left-body-text p {
+        width: 103%;
+    }
+    .body-content-3-left-body img{
+        height: 90px;
+        margin: auto;
+    }
+    .body-content-3-right{
+        margin-left: 7%;
+    }
+    .body-content-3-right-head{
+        margin-top: 30px;
+    }
+    .container-body-content-3-right {
+        width: 92%;
+    }
+    .body-content-3-right-body{
+        padding: 0;
+    }
+    .body-content-3-right-body-text-timelocal{
+        width: 90%;
+    }
+    .body-content-3-right button{
+        margin: 0 20% 20px 0;
+    }
+    .footer-body-featured {
+        margin: 0 10% 0 0%;
+    }
+    .footer-body-contact h4{
+        padding-bottom: 20px;
+    }
+    .footer-body li{
+        width: 100%;
+    }
+}
